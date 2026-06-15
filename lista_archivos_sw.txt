@@ -10,6 +10,7 @@ const ARCHIVOS = [
   "fonts/Roboto-Italic-VariableFont_wdth,wght.ttf",
   "fonts/Roboto-VariableFont_wdth,wght.ttf",
   "img/icono2048.png",
+  "img/logo.png",
   "img/maskable_icon.png",
   "img/maskable_icon_x128.png",
   "img/maskable_icon_x192.png",

@@ -11,10 +11,11 @@
 
   <script type="module" src="js/registraServiceWorker.js"></script>
   <script type="module" src="libclienteweb/manejaErrores.js"></script>
+  
 
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#fffbfe">
-  <link rel="icon" sizes="32x32" href="favicon.ico">
+  <link rel="icon" sizes="32x32" href="favicon.ico"> 
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/material-symbols-outlined.css">
   <link rel="stylesheet" href="material-tokens/css/baseline.css">
@@ -141,6 +142,37 @@
     }
 
   </script>
+
+<title>GPS</title>
+ <style>
+  html {
+   color-scheme: light dark;
+  }
+ </style>
+</head>
+<body>
+ <h1>GPS</h1>
+ <p>
+  <label>
+   Latitud
+   <output id="latitud"></output>
+  </label>
+ </p>
+ <p>
+  <label>
+   Longitud
+   <output id="longitud"></output>
+  </label>
+ </p>
+ <script>
+  navigator.geolocation.
+   watchPosition(p => {
+    latitud.value =
+     p.coords.latitude
+    longitud.value =
+     p.coords.longitude
+   });
+ </script>
 
 </body>
 
