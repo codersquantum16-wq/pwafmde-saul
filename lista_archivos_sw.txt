@@ -1,5 +1,6 @@
 const ARCHIVOS = [
   "ayuda.html",
+  "camara.html",
   "css/estilos.css",
   "css/material-symbols-outlined.css",
   "css/transicion_pestanas.css",
